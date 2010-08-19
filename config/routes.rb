@@ -13,3 +13,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :health_monitor, :controller => "health_monitor", :only => :show, :member => { :monitor_health => :get } 
   Jammit::Routes.draw(map)
 end
+#== Route Map
+# Generated on 19 Aug 2010 13:34
+#
+# Could not find Test::Unit 2.0, ignoring
+# => QueryTrace disabled; CTRL-\ to toggle
