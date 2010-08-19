@@ -1,0 +1,3 @@
+#flash.span-22.prefix-1.suffix-1.last
+  - flash.each do |key, value|
+    %div{:class => key, :id => "flash_#{key}"}= h value
